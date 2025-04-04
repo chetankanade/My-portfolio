@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 export default function Portfolio() {
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState('dark');
 
   const toggleTheme = () => {
     setTheme(theme === 'light' ? 'dark' : 'light');
@@ -21,12 +21,12 @@ export default function Portfolio() {
       </header>
 
       <main className="px-6 py-10 max-w-3xl mx-auto">
-        <section className="mb-10">
+        {/* <section className="mb-10">
           <h2 className="text-xl font-semibold mb-2">About Me</h2>
           <p>
             I'm a passionate web developer with experience in building modern web applications using React, Node.js, and more. I love clean code, beautiful UIs, and creating things that make people's lives easier.
           </p>
-        </section>
+        </section> */}
 
         <section className="mb-10">
           <h2 className="text-xl font-semibold mb-2">Projects</h2>
