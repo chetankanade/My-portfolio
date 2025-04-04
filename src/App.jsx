@@ -14,19 +14,21 @@ export default function Portfolio() {
         <h1 className="text-2xl font-bold">My Portfolio</h1>
         <button
           onClick={toggleTheme}
-          className="px-4 py-2 rounded-xl bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600"
+          className={`px-4 py-2 rounded-xl transition-colors duration-300 ${
+            theme === 'dark' ? 'bg-gray-700 hover:bg-gray-600 text-white' : 'bg-gray-200 hover:bg-gray-300 text-gray-900'
+          }`}
         >
           Toggle {theme === 'light' ? 'Dark' : 'Light'} Mode
         </button>
       </header>
 
       <main className="px-6 py-10 max-w-3xl mx-auto">
-        {/* <section className="mb-10">
+        <section className="mb-10">
           <h2 className="text-xl font-semibold mb-2">About Me</h2>
           <p>
             I'm a passionate web developer with experience in building modern web applications using React, Node.js, and more. I love clean code, beautiful UIs, and creating things that make people's lives easier.
           </p>
-        </section> */}
+        </section>
 
         <section className="mb-10">
           <h2 className="text-xl font-semibold mb-2">Projects</h2>
