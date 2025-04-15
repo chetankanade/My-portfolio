@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import Intro from './Components/Intro';
 
 export default function Portfolio() {
   const [theme, setTheme] = useState('dark');
@@ -22,27 +23,11 @@ export default function Portfolio() {
         </button>
       </header>
 
-      <main className="px-6 py-10 max-w-3xl mx-auto">
-        <section className="mb-10">
-          <h2 className="text-xl font-semibold mb-2">About Me</h2>
-          <p>
-            I'm a passionate web developer with experience in building modern web applications using React, Node.js, and more. I love clean code, beautiful UIs, and creating things that make people's lives easier.
-          </p>
-        </section>
+      <main className=" max-w-6xl mx-auto ">
 
-        <section className="mb-10">
-          <h2 className="text-xl font-semibold mb-2">Projects</h2>
-          <ul className="space-y-4">
-            <li>
-              <h3 className="font-semibold">Project One</h3>
-              <p>A simple web app to showcase my skills. Built with React and Tailwind CSS.</p>
-            </li>
-            <li>
-              <h3 className="font-semibold">Project Two</h3>
-              <p>An API built with Node.js and Express, connected to a MySQL database.</p>
-            </li>
-          </ul>
-        </section>
+        <Intro theme={theme}/>
+        
+       
 
         <section>
           <h2 className="text-xl font-semibold mb-2">Contact</h2>
