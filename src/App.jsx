@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import Intro from './Components/Intro';
+import Myskills from './Components/skills';
 
 export default function Portfolio() {
   const [theme, setTheme] = useState('dark');
@@ -15,9 +16,8 @@ export default function Portfolio() {
         <h1 className="text-2xl font-bold">My Portfolio</h1>
         <button
           onClick={toggleTheme}
-          className={`px-4 py-2 rounded-xl transition-colors duration-300 ${
-            theme === 'dark' ? 'bg-gray-700 hover:bg-gray-600 text-white' : 'bg-gray-200 hover:bg-gray-300 text-gray-900'
-          }`}
+          className={`px-4 py-2 rounded-xl transition-colors duration-300 ${theme === 'dark' ? 'bg-gray-700 hover:bg-gray-600 text-white' : 'bg-gray-200 hover:bg-gray-300 text-gray-900'
+            }`}
         >
           Toggle {theme === 'light' ? 'Dark' : 'Light'} Mode
         </button>
@@ -25,20 +25,21 @@ export default function Portfolio() {
 
       <main className=" max-w-6xl mx-auto ">
 
-        <Intro theme={theme}/>
-        
-       
+        <Intro theme={theme} />
+        <Myskills/>
+
+
 
         <section>
           <h2 className="text-xl font-semibold mb-2">Contact</h2>
           <div className="flex gap-6 text-2xl">
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/chetankanade" target="_blank" rel="noopener noreferrer">
               <FaGithub />
             </a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/chetan-kanade-08/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin />
             </a>
-            <a href="mailto:you@example.com">
+            <a href="chetankanade8@gmail.com">
               <FaEnvelope />
             </a>
           </div>

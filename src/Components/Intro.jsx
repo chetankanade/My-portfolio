@@ -13,7 +13,7 @@ function Intro({ theme }) {
           Full-stack Developer & Problem Solver
         </h3>
 
-        <div>
+        {/* <div>
           <h4 className={`text-lg font-semibold mb-2 ${isDark ? 'text-white' : 'text-gray-800'}`}>Projects</h4>
           <ul className={`space-y-2 text-sm list-disc list-inside ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>
             <li>
@@ -23,7 +23,7 @@ function Intro({ theme }) {
               <span className={`${isDark ? 'text-white' : 'text-black'} font-medium`}>Project Two:</span> An API built with Node.js and Express, connected to a MySQL database.
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
 
       {/* Right Section */}
@@ -32,7 +32,7 @@ function Intro({ theme }) {
           <img
             src="/mypic.webp"
             alt="Chetan Kanade"
-            className="rounded-3xl shadow-[0_0_40px_#8B5CF6] border-purple-500"
+            className="rounded-3xl "
           />
           {/* Optional background glow */}
           {/* <div className="absolute inset-0 bg-purple-500 opacity-20 rounded-xl blur-2xl z-[-1]"></div> */}
