@@ -12,9 +12,9 @@ const skills = {
 
 function Myskills() {
     return (
-        <section className=" text-white font-sans text-center py-12">
-            <h2 className="text-4xl font-bold mb-10 text-white">Skills</h2>
-            <div className="flex flex-col md:flex-row justify-center items-start gap-12 px-4">
+        <section className=" text-white font-sans text-center py-5">
+            <h2 className="text-4xl font-bold mb-10 text-white mt-40">Skills</h2>
+            <div className="flex flex-col md:flex-row justify-center items-start gap-16 px-4">
                 {/* Frontend Skills */}
                 <SkillCard title="FRONT END" skills={skills.frontend} />
 
