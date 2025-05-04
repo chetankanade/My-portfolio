@@ -1,6 +1,6 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Index from './pages/index.jsx'
+import Index from './pages/Index.jsx'
 
 function App() {
   console.log("sdfs");
