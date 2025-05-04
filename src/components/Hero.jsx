@@ -24,7 +24,7 @@ const Hero = () => {
           {/* Replace with your profile image */}
           <div className="w-full h-full bg-portfolio-gray-mid flex items-center justify-center text-white">
             {/* <span className="text-6xl">YN</span> */}
-            <img src='../../../../public/mypic.webp' alt="Your Name" className="w-full h-full object-cover rounded-full" />
+            <img src='/mypic.webp' alt="Your Name" className="w-full h-full object-cover rounded-full" />
           </div>
           </div>
         </div>

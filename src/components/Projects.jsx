@@ -7,7 +7,7 @@ const projectData = [
     title: "Crypto Trading",
     description:
       "A web application for trading cryptocurrencies with real-time data and analytics.",
-    image: "../../public/crypto.png",
+    image: "/crypto.png",
     technologies: ["Vuejs", "PHP", "MYSQL"],
     liveUrl: "https://alphabitco.com/",
   },
@@ -16,7 +16,7 @@ const projectData = [
     title: "HR Solutions",
     description:
       "A web application for HR solution, provides best talents for your org. ",
-    image: "../../public/jobsplanat.png",
+    image: "/jobsplanat.png",
     technologies: ["React Js", "Tailwind CSS"],
     liveUrl: "https://india-staffing-connect.vercel.app/",
   },
@@ -25,7 +25,7 @@ const projectData = [
     title: "Crypto trading",
     description:
       "A web application for trading cryptocurrencies with real-time data and analytics.",
-    image: "../../public/crypto.png",
+    image: "/crypto.png",
     technologies: ["Vuejs", "PHP", "MYSQL"],
     liveUrl: "#",
   },
